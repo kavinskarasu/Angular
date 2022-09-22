@@ -1,0 +1,123 @@
+To install angular cli
+  npm i -g angular/cli
+
+2) to create new project
+   ng new <project_name>
+
+3 Run application
+  -ng serve
+
+
+  lesson 2
+
+  install bootstrap
+
+  1) to work with contant delivary network
+     
+     all links from bootstrap
+      npm i bootstarp  popper --save
+      update angular.json
+
+
+       lesson 3
+
+       angular material
+               ng add @angular/material
+      
+                angular material is used for what kind of themes want to be used - angular styles
+               
+
+               import the module and use it
+
+
+        lesson 4
+
+        FOLDER STRUCTURE
+
+              1       tsconfig.json
+                       - basic typescript settings
+
+            2       src
+                      -app module
+                          -app component 
+                              -app.component.html   -> html code
+                              -app.component.scss   -> style sheet
+                              -app.component.spec.ts  -> unit test script
+                              - app.component.ts  -> class file
+               
+
+               3)  assets
+                     -images
+                     -mock data
+                     -apis
+
+
+                4)  environments
+
+                     -dev
+                     -local
+                     -prodection
+
+                     
+
+                 5) index.html
+                       single page application
+                         
+                         dynamicaly data get injected into index.html
+
+                         <app-root>  - code injected at run time
+
+
+
+
+                  6)   main.ts
+
+                        --bootstrap module -- it means when application starts it will see main.ts which module to boot
+
+                              
+                              -- appModule
+
+                              -- starting point of your application
+
+
+                               -- default appmodule will start
+                                
+                                -- we can also can change the module when necessory
+
+                                --No mandatory it should be in appmodule we can change it
+
+
+
+
+
+                         7) polyfills.ts
+
+                               --  supporting older browsers
+
+
+                          8) styles.css
+                                --global stylesheet for global
+
+
+
+
+
+                          9) test.ts
+
+                             --test scripts for the main.ts file
+                             
+                               
+                                 
+
+
+
+
+
+                          
+
+
+
+
+
+
+   
