@@ -106,7 +106,79 @@ To install angular cli
 
                              --test scripts for the main.ts file
                              
+                             --tesing the main.ts file code
+
                                
+
+                     10  angular.js
+                          --backbone of the application
+                             
+                             --scripts
+                             -->ports
+                             --> settings
+
+                             --schematics
+                                  -->build
+                                  -->test
+
+
+                          11 karma.conf.js
+
+                             -->spec.ts
+                             -->  test script runner
+                             -->running or executing all our test scripts
+
+                          
+                          12   tsconfig   
+                              
+                              configuation for type Script
+
+                                 ---bulid output directory
+                                 --sourcemap
+                                 --using while deployment
+
+                          13 tslint
+                              --recommandation
+                              --waring
+                              --spacing
+                              --enforce coding standards
+
+
+      lesson 5
+           BOOTING PROCESS IN ANGULAR
+
+            to start application === ng serve command
+
+               --compiling the app
+                   -- go to main.ts to bootstrap module
+                          it will go to module located in main.ts if it is app module it go to app module
+
+                           -- app module 
+                                 --app component
+
+                                 if mains.ts contains other component it will go it for expample
+                                     
+                                     --AuthModule
+                                         loginCompount
+                                         homeComponent
+
+                                         if we use other module we should go test.ts file and change the component name
+
+              --- whenever we do a ng serve/build/test
+
+              compile your typescript int javascript code into es6 featuers
+                  --transpiling
+                  --it will generate 
+                    1) main.js
+                    2) polyfills.js
+                    3) main.js.map
+                    4) runtime.js
+
+
+                        
+
+
+
                                  
 
 
